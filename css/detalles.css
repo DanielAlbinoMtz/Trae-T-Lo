@@ -1,0 +1,211 @@
+#map{
+    height: 200px;
+    width: 600px;
+    margin-top: 15px;
+    
+}
+
+.title{
+    text-align: center;
+}
+.galeria .direccion{
+    font-family: 'Lucida Sans';
+    background-color: #ffffff;
+    color: #000000;
+   width: 700px;
+   height: auto;
+   padding: 15px 15px;
+   border-radius: 8px;
+   border: 2px solid #c2c2c2;
+   box-shadow: 0 2px 2 px rgba(0,0,0,0.2);
+   overflow: hidden;
+   margin: 15px;
+   text-align: start;
+   transition: all 0.25s;
+   box-shadow: 0 12px 16px rgba(0,0,0,0.1);
+   margin-bottom: 30px;
+}
+
+.galeria .direccion:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+
+.galeria .direccion .nombre{
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+.galeria .direccion h4{
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+
+
+
+.bt1{
+   
+   margin-top: 5px;
+   background-color: white;
+   font-family: 'Lucida Sans';
+   font-size: 15px;
+   border: 2px solid red;
+   color: red;
+   padding: 10px 25px;
+   text-align: right;
+   text-decoration: none;
+   display: inline-block;
+   transition: 0.4s;
+   border-radius: 8px;
+   
+}
+.bt1:hover{
+   background-color: red; 
+   color: #fff;
+   border: none;
+}
+
+
+.bt2{
+   
+    margin-top: 5px;
+    background-color: #fff;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    border:2px solid #3498db;
+    color: #3498db;
+    padding: 10px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.4s;
+    border-radius: 8px;
+    
+ }
+ .bt2:hover{
+    background-color: #3498db; 
+    color: #ffffff;
+    border: 2px solid #3498db;
+ }
+
+ .bor{
+     text-align: right;
+ }
+
+textarea{
+    resize: none;
+    
+    
+}
+
+#textarea {
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    color:#fff;
+   
+    }
+
+.anadir{
+   text-align: center;
+   margin-top:30px;
+   margin-bottom: 30px;
+}
+.anadir .otra{
+   color: #fff;
+   font-size: 15px;
+   background: #3498db;
+   padding: 15px 25px;
+   border-radius: 8px;
+   border:2px solid #3498db;
+   cursor: pointer;
+}
+
+.anadir .otra:hover{
+   color: #3498db;
+   font-size: 15px;
+   background: #ffffff;
+   padding: 15px 25px;
+   border-radius: 8px;
+   border: 2px solid #3498db;
+   cursor: pointer;
+}
+
+
+.contenedor-galeria1{
+    border: 2px solid #c2c2c2;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.1);
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+    @media only screen and (min-width: 400px) and (max-width:767px){
+        
+        
+        .galeria .direccion .nombre{
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 15px;
+         }
+         .galeria .direccion h4{
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 13px;
+         }
+
+         .bt1{
+   
+            margin-top: 20px;
+            background-color: white;
+            font-family: 'Lucida Sans';
+            font-size: 14px;
+            border: 2px solid red;
+            color: red;
+            padding: 8px 20px;
+            
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.4s;
+            border-radius: 8px;
+            
+         }
+         .bt2{
+   
+            margin-top: 20px;
+            background-color: #3498db;
+            font-family: 'Lucida Sans';
+            font-size: 14px;
+            border:2px solid #3498db;
+            color: white;
+            padding: 8px 20px;
+            
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.4s;
+            border-radius: 8px;
+            
+         }
+
+         .bor{
+            text-align: center;
+        }
+
+        #textarea {
+            font-family: 'Lucida Sans';
+            font-size: 14px;
+            color:#fff;
+            
+           
+            }
+        
+        
+    }
+
+    

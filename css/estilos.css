@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.pantalla{
+    
+    color: #000000;
+    position:relative ;
+    text-align: center;
+    
+}
+
+.galeria{
+    background:#fff;
+    color: #707070;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 30px;
+}
+
+.cuerpo{
+   
+    min-height: 100vh;
+    background-image: url(/img/Xalapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: relative;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.cuerpo:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg,rgb(130, 126, 136),rgb(61, 59, 70));
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.txt{
+    color: #ffffff;
+    margin-left: 100px;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+
+.txt1{
+    color: #ffffff;
+    margin-left: 100px;
+    font-family: 'Lucida Sans';
+    font-size: 50px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-left: 175px;
+    background-color: #A0D334;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.4s;
+    
+}
+.btn:hover{
+    background-color: #fff; /* Green */
+    color: #A0D334;
+    border: 2px solid #A0D334;
+}
+
+.principal{
+    background: linear-gradient(45deg,#7A39DB,#6048FF );
+    overflow: hidden;
+    width: 100%;
+    margin-bottom:20px ;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo{
+    color: #A0D334;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 70px;
+    float: left;
+    
+}
+
+nav{
+    line-height: 70px;
+    float: right;
+}
+
+nav a{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: normal;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav a:hover{
+    color: #A0D334;
+    border-bottom: 5px solid #A0D334 ;
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 400px) and (max-width:767px){
+    .principal{
+        height: 70px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-left: 130px;
+        margin-top: -15px;
+    }
+    nav{
+        margin-top: -40px;
+        transform: translate(-1.5%);
+    }
+
+    .cuerpo{
+        margin-top: -20px;
+        transform: translate(-1.5%);
+    }
+
+    .title{
+     margin-right: 30px;
+     font-size: 15px;
+     margin-left: 130px;
+    }
+}
+
+ .title{
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 150px;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
